@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapperTop {
+    background-image: url(/public/img/Background\ wave.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 87px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header img {
+    margin: 1rem;
+}
+
+nav {
+    padding: 1rem;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: 160px;
+    height: 56px;
+}
+
+button.top {
+    border: solid 4px #00806d;
+    background-color: white;
+}
+  
+button.primary, button.secondary {
+    color: white;
+    border: none;
+}
+
+button.primary {
+    background-color: #00806d;
+}
+
+button.secondary {
+    background-color: #ffa433;
+}
+
+
+
+section.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article.left {
+    margin-left: 9rem;
+}
+
+section.bottom {
+    height: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #009688;
+    display: flex;
+    height: 194px;
+}
+
+footer article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img {
+    height: 32px;
+}
+
+article.bottomLeft {
+    width: 35%;
+    justify-content: space-around;
+}
+
+article.bottomCenter {
+    width: 35%;
+    justify-content: space-around;
+}
+
+article.bottomRight {
+    width: 30%;
+    justify-content: center;
+    /* margin-left: 5rem; */
+}
+
+article.bottomRight img {
+    margin: 0.5rem;
+}
+
+h1 {
+    width: 540px;
+    height: 148px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 67px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: 0.8px;
+    color: #000000;
+  }
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 38px;
+    margin: 1rem 0;
+    color: #000000;
+}
+
+h4 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+header h4 {
+    color: #00806d;
+}
+
+p {
+    /* width: 540px;
+    height: 105px; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.19px;
+    color: var(--near_black);
+}

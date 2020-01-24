@@ -63,6 +63,20 @@ section.top {
     justify-content: center;
 }
 
+article.card {
+    width: 343px;
+    height: 342px;
+    border-radius: 20px;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.25);
+    background-color: white;
+    margin: 0.5rem;
+    overflow: hidden;
+}
+
+article.card h3, article.card p {
+    margin-left: 0.5rem;
+}
+
 article.left {
     margin-left: 9rem;
 }
